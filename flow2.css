@@ -10,6 +10,7 @@
     animation: spin 3s infinite;
 }
 
+
 @keyframes spin {
     to {
         transform: rotate(360deg);
