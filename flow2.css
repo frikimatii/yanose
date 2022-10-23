@@ -1,0 +1,310 @@
+
+/* trinagulo */
+
+.triangulo {
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #A901DB;
+    animation: spin 3s infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+    /*  //////////barra de navegacion ////////  */
+
+#navbar {
+    border-bottom: #A901DB 2px solid;
+    top: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+ul li a:hover {
+    transform: translate(-3px) scale(0.9)
+}
+
+                          /*cabezera*/ 
+
+#cabezera {
+    background-color: black;
+    color: #f7f0fa;
+}
+
+.nombre {
+    text-decoration: underline dashed;
+}
+#btnCV:hover {
+    transform: scale(1.25);
+}
+.icons {
+    display: flex;
+    list-style-type: none;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.skills {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+#html:hover {
+    color: #e46231;
+    margin: 1px;
+}
+
+#css:hover {
+    color: #0c6cad;
+    margin: 1px;
+}
+
+#js:hover {
+    color: #eab120;
+    margin: 1px;
+}
+
+#bootra:hover {
+    color: #553473;
+    margin: 1px;
+}
+#github:hover{
+    color: #474747;
+    margin: 1px;
+}
+#sql:hover{
+    color: #1500ff;
+    margin:1px
+}
+
+                  /*foto de perfil */ 
+
+#perfil {
+    border-radius: 80px;
+    border: solid #9a51b1 2px;
+}
+
+#perfil:hover {
+    transform: scale(1.05);
+}
+
+                      /* sobre Mi */ 
+
+#aboutme{
+    margin-top: 30px;
+}
+.box2{
+    display: flex;
+
+}
+.sobremi{
+    margin: 3px;
+    padding-left: 5px;
+    border-left: solid 3px;
+    border-image: linear-gradient(to bottom, #000000, #ffffff00) 1 99%;
+    width: 70%;
+    
+}
+.titulosobremi{
+    color: blue;
+    
+}
+
+/* hobbie */
+
+
+.hobbies{
+    margin-left: 29px;
+}
+
+.control:hover{
+    color: rgb(0, 255, 0);
+    transition: ease-in .5s;
+    animation: shake 0.5s infinite;
+
+}
+@keyframes shake {
+    0%{transform: translate(1px, 1px) rotate(0deg);}
+    20%{transform: translate(-3px - 0px) rotate(1deg);}
+    40%{transform: translate(1px, -1px) rotate(0deg);}
+    60%{transform: translate(-3px, 2px) rotate(1deg);}
+    80%{transform: translate(-1px, -1px) rotate(0deg);}
+    100%{transform: translate(1px, -2px) rotate(-1deg);}
+}
+.nota:hover{
+    color: #00f0dc;
+    transition: ease-in .5s;
+    animation: opac 0.5s infinite;
+}
+@keyframes opac {
+    0%{
+        opacity: 0;
+    }
+    
+    50%{
+        opacity: .50;
+        color: hotpink;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+.avion:hover{
+    color: #bdbdbd;
+    transition: ease-in .5s;
+    animation: despege 3s linear infinite;  
+    
+}
+@keyframes despege {
+    0%{
+        transform: translate(0, 0)rotate(-45deg);
+    }
+    100%{
+        transform: translate(-20px, -20px);
+    }
+    
+}
+.martillo{
+    transform: rotate(45deg);
+} 
+.martillo:hover{
+    color: #fc0000;
+    transition: ease-in .5s;
+    animation: martillo 1s infinite;
+}
+@keyframes martillo {
+    0%{
+        transform: rotate(50deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(50deg);
+    }
+    
+}
+.foco:hover{
+   color:  #fffb00;
+    transition: ease-in .3s;
+    animation: foco 1s infinite;
+}
+@keyframes foco {
+    0%{
+        transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.25);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}.pieza:hover{
+    color: hotpink;
+    transition: ease-in .4;
+    animation: pulze 3s infinite;
+    transform: rotate(30deg);
+}
+@keyframes pulze {
+    0%{
+        opacity: .50;
+    }
+    
+    50%{
+        opacity: 0;
+        color: hotpink;
+    }
+    100%{
+        opacity: .50;
+    }
+}
+
+/* imagen derecha */ 
+
+
+.photo1:hover{
+    transform: scale(1.10);
+}
+.photo2:hover{
+    transform: scale(1.10);
+}
+.photo3:hover{
+    transform: scale(1.10);
+}
+.photo4:hover{
+    transform: scale(1.10);
+}
+.photo5:hover{
+    transform: scale(1.10);
+}
+
+/* ////////////proyectos///////////// */
+
+.titulo-proyecto{
+    color: #A901DB;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    border-top: 2px silver solid;
+    margin-top: 25px;
+}
+
+.box-pro{
+    width: 100%;
+}
+
+.proyect-1{
+    color: #f7f0fa;
+    background: #192965;
+    box-shadow: 6px 6px 11px -1px rgba(0,0,0,0.75);
+    border: 2px solid #253a93;
+    width: 33%;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+.proyect-1 img:hover{
+    transform: scale(1.1);
+}
+.proyect-1 a{
+    text-decoration: none;
+}
+
+.proyect-2{
+    border: 2px solid;
+    width: 33%;
+    margin: 20px;
+    box-shadow: 6px 6px 11px -1px rgba(0,0,0,0.75);
+    background: #bdbdbd;
+}
+
+.proyect-3{
+    border: 2px solid;
+    width: 33%;
+    margin: 20px;
+}
+
+/* //////////////footer///////// */ 
+
+footer{
+    background: linear-gradient(0deg, rgb(187, 88, 226) 0%, rgba(255,255,255,1) 30%);
+    height: 100px;
+    border-top: 1px solid rgb(162, 162, 162);
+    color: #bdbdbd; 
+
+}
+
