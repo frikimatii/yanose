@@ -34,8 +34,11 @@ ul li a:hover {
     color: #f7f0fa;
 }
 
+.boxme{
+    font-family: 'Lobster', cursive;
+}
 .nombre {
-    text-decoration: underline dashed;
+    text-decoration: underline ;
 }
 #btnCV:hover {
     transform: scale(1.25);
@@ -115,6 +118,7 @@ ul li a:hover {
     border-left: solid 3px;
     border-image: linear-gradient(to bottom, #000000, #ffffff00) 1 99%;
     width: 70%;
+    font-family: 'Lobster', cursive;
     
 }
 .titulosobremi{
@@ -212,7 +216,9 @@ ul li a:hover {
     100%{
         transform: scale(1.0);
     }
-}.pieza:hover{
+}
+
+.pieza:hover{
     color: hotpink;
     transition: ease-in .4;
     animation: pulze 3s infinite;

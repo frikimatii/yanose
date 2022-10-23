@@ -71,3 +71,6 @@ ScrollReveal().reveal('.bi', {reset: true});
 ScrollReveal().reveal('.proyect-1', { duration: 2000 , reset: true});
 ScrollReveal().reveal('.proyect-2', { duration: 2000 , reset: true});
 ScrollReveal().reveal('.proyect-3', { duration: 2000 , reset: true});
+
+
+
