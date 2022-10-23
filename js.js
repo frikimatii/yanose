@@ -70,12 +70,3 @@ ScrollReveal().reveal('#btnCV', { duration: 1000 });
 ScrollReveal().reveal('.bi', {reset: true}); 
 ScrollReveal().reveal('.proyect-1', { duration: 2000 , reset: true});
 ScrollReveal().reveal('.proyect-2', { duration: 2000 , reset: true});
-<<<<<<< HEAD
-ScrollReveal().reveal('.proyect-3', { duration: 2000 , reset: true});
-
-
-
-
-=======
-ScrollReveal().reveal('.proyect-3', { duration: 2000 , reset: true});
->>>>>>> parent of c2a8fbc (agregado de font)
