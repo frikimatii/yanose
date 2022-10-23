@@ -74,3 +74,4 @@ ScrollReveal().reveal('.proyect-3', { duration: 2000 , reset: true});
 
 
 
+
