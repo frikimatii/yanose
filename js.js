@@ -63,7 +63,7 @@ imagen5.style.border = `black solid 1px`
 imagen5.style.margin = `3px`
 imagen5.style.borderRadius = `5%`
 document.querySelector(`.photo5`).appendChild(imagen5)
-
+ 
 
 ScrollReveal().reveal('.figure', { duration: 3000 }, {reset: true});
 ScrollReveal().reveal('#btnCV', { duration: 1000 });
