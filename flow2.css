@@ -301,6 +301,35 @@ ul li a:hover {
     margin: 20px;
 }
 
+/* ////////////// donaciones ///////// */ 
+
+.donaciones{
+    width: 90%;
+    margin: auto;
+    padding: 15px 15px;
+    background-color: #ececec;
+    margin-bottom: 10px;
+}
+.paypal:hover{
+    box-shadow: -1px 0px 35px 0px rgba(23,43,112,0.75);
+}
+.logopaypal{
+    width: 70px;
+}
+.CBU:hover{
+    box-shadow: -1px 0px 35px 0px rgba(255,103,102,1);
+}
+.logouala{
+    width: 70px;
+}
+.cripto:hover{
+    box-shadow: -1px 0px 35px 0px rgba(134,255,46,1); 
+}
+.logolemon{
+    width: 70px;
+}
+
+
 /* //////////////footer///////// */ 
 
 footer{
