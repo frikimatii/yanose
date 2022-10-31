@@ -72,3 +72,5 @@ ScrollReveal().reveal('.proyect-1', { duration: 2000 , reset: true});
 ScrollReveal().reveal('.proyect-2', { duration: 2000 , reset: true});
 
 
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
